@@ -2,41 +2,60 @@
 Mixture Model Regression analysis for Polynomial Formulations
 
 ## 1) General hierarchical stepwise regression-AICc-Scheffe-Becker-InvLog-2nd-new.ipynb:
+
 Fit Scheffe or Becker polynomial mixture models using General hierarchical step-wise regression
 Requires: experimental.csv and Response.csv
 
 Function:
+
 'model_fit(experimental_file, response_file, response, model_type, inv_log, order)'
 
 Parameters to define:
+
 a) repsonse
+
 b) model type: Scheffe or Becker
+
 c) inv_log: inv, log or None to add inverse or logarithmic boundry terms or neither
+
 d) order: 2 or 3 to define polynomial model order
 
 ## 2) Hierarchical backward regression.ipynb:
+
 Fit Scheffe or Becker polynomial mixture models using Hierarchical backward regression
+
 Requires: experimental.csv and Response.csv
 
 Function:
+
 'model_fit(experimental_file, response_file, response, model_type, order, inv_log)'
 
 Parameters to define:
+
 a) repsonse
+
 b) model type: Scheffe or Becker
+
 c) inv_log: inv, log or None to add inverse or logarithmic boundry terms or neither
+
 d) order: 2 or 3 to define polynomial model order
 
 ## 3) BrownPiepel stepwise function - (no linear removal)-2nd.ipynb:
+
 Fit Scheffe or Becker polynomial mixture models using Quadratic step-wise regression
+
 Requires: experimental.csv and Response.csv
 
 Function:
+
 'model_fit(experimental_file, response_file, response, model_type, inv_log)'
 
 Parameters to define:
+
 a) repsonse
+
 b) model type: Scheffe or Becker
+
 c) inv_log: inv, log or None to add inverse or logarithmic boundry terms or neither
 
 ## 4) Branched step-wise regression with conditioning-2nd Scheffe.ipynb:
